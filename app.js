@@ -1,13 +1,13 @@
 var http = require('http'),
 	querystring = require('querystring');
-
+// this is difficute
 /**
 * 载入控制器
 * @function loadControllers
 * @param {Obj} opt 请求选项 host 和 port
 * @param {Function} cb 回调函数 传入参数controllers
 */
-// function loadControllers(opt, cb){
+function loadControllers(opt, cb){
 	sendRequrest({
 		host:opt.host,
 		port:opt.port,
