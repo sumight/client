@@ -90,7 +90,7 @@ function sendRequrest(opt, param, cb){
 	req.end();
 	req.on('error', function (e) {  
 	    console.log('problem with request: ' + e.message);  
-	});
+	// });
 }
 // for test
 sendRequrest({host:'localhost',port:4000,path:'/getControllers'},{},function(data){
