@@ -8,6 +8,7 @@ var http = require('http'),
 * @param {Function} cb 回调函数 传入参数controllers
 */
 function loadControllers(opt, cb){
+	// this is add
 	sendRequrest({
 		host:opt.host,
 		port:opt.port,
