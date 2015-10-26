@@ -7,6 +7,7 @@ var http = require('http'),
 * @param {Obj} opt 请求选项 host 和 port
 * @param {Function} cb 回调函数 传入参数controllers
 */
+// xiaomign 
 function loadControllers(opt, cb){
 	// this is add
 	sendRequrest({
